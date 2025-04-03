@@ -8,6 +8,18 @@
   --font-mono: var(--font-geist-mono, "Courier New", monospace);
 }
 
+/* Dark theme */
+[data-theme="dark"] {
+  --background: #171717;
+  --foreground: #ffffff;
+}
+
+/* Candy theme */
+[data-theme="candy"] {
+  --background: #ffc2e2;
+  --foreground: #8a2be2;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);

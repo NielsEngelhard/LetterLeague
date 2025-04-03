@@ -1,7 +1,7 @@
 interface Props {
     text: string;
     handleClick?: () => void;
-    colorTheme: 1 | 2 | 3 | 4;
+    colorTheme?: 1 | 2 | 3 | 4;
 }
 
 export default function TextButton({ text, handleClick, colorTheme = 1}: Props) {
